@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\komiyasa\\Val\\01ASPdotnet\\01MVCVal\\Val\\MvcMovie\\MvcMovie.csproj": {}
+    "C:\\Users\\komiyasa\\Val\\01ASPdotnet\\02CustomVisionWebApp\\v1\\CVWebApp\\CVWebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\komiyasa\\Val\\01ASPdotnet\\01MVCVal\\Val\\MvcMovie\\MvcMovie.csproj": {
+    "C:\\Users\\komiyasa\\Val\\01ASPdotnet\\02CustomVisionWebApp\\v1\\CVWebApp\\CVWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\komiyasa\\Val\\01ASPdotnet\\01MVCVal\\Val\\MvcMovie\\MvcMovie.csproj",
-        "projectName": "MvcMovie",
-        "projectPath": "C:\\Users\\komiyasa\\Val\\01ASPdotnet\\01MVCVal\\Val\\MvcMovie\\MvcMovie.csproj",
+        "projectUniqueName": "C:\\Users\\komiyasa\\Val\\01ASPdotnet\\02CustomVisionWebApp\\v1\\CVWebApp\\CVWebApp.csproj",
+        "projectName": "CVWebApp",
+        "projectPath": "C:\\Users\\komiyasa\\Val\\01ASPdotnet\\02CustomVisionWebApp\\v1\\CVWebApp\\CVWebApp.csproj",
         "packagesPath": "C:\\Users\\komiyasa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\komiyasa\\Val\\01ASPdotnet\\01MVCVal\\Val\\MvcMovie\\obj\\",
+        "outputPath": "C:\\Users\\komiyasa\\Val\\01ASPdotnet\\02CustomVisionWebApp\\v1\\CVWebApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -54,18 +54,10 @@
               "target": "Package",
               "version": "[2.1.2, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[3.0.0, )"
-            },
             "Microsoft.NETCore.App": {
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
-            },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-              "target": "Package",
-              "version": "[2.1.10, )"
             }
           },
           "imports": [
