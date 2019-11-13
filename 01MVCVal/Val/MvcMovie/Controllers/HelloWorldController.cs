@@ -1,7 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Text.Encodings.Web;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
 
-namespace MvcMovie.Controllers
+namespace MVCMovie.Controllers
 {
     public class HelloWorldController : Controller
     {
@@ -10,10 +14,10 @@ namespace MvcMovie.Controllers
             return View();
         }
 
-        public IActionResult Welcome(string name, int numTimes = 1)
+        public IActionResult Welcome(string name, int numtimes = 1)
         {
-            ViewData["Message"] = "Hello " + name;
-            ViewData["NumTimes"] = numTimes;
+            ViewData["message"] = "Hello" + name;
+            ViewData["Numtimes"] = numtimes;
 
             return View();
         }
