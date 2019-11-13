@@ -1,0 +1,6 @@
+﻿@using (Html.BeginForm("Upload", "Home", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    <input type="file" name="uploadFile" />
+    <button type="submit">登録</button>
+}
